@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pokemon App</string>
+    <string name="pokemon_list_title">Lista de Pokémon</string>
+    <string name="pokemon_detail_title">Detalles del Pokémon</string>
+    <string name="loading">Cargando...</string>
+    <string name="error_loading">Error al cargar los datos</string>
+    <string name="height_label">Altura</string>
+    <string name="weight_label">Peso</string>
+    <string name="types_label">Tipos</string>
+    <string name="abilities_label">Habilidades</string>
+    <string name="stats_label">Estadísticas</string>
+</resources>
