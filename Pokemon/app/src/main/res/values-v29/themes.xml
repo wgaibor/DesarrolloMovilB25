@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Pokemon" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent_color</item>
+        <item name="colorSecondaryVariant">@color/accent_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Color de la status bar -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+
+        <!-- Texto claro o oscuro en la status bar -->
+        <!-- false = texto blanco, true = texto oscuro -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Opcional: evita que Material You sobrescriba colores -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>
