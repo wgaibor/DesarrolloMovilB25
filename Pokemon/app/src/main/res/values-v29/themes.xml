@@ -11,7 +11,7 @@
         <item name="colorSecondaryVariant">@color/accent_color</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Color de la status bar -->
-        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:statusBarColor">#9C27B0</item>
 
         <!-- Texto claro o oscuro en la status bar -->
         <!-- false = texto blanco, true = texto oscuro -->
