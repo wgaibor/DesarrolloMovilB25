@@ -1,5 +1,7 @@
 package ec.game.pokemon.adapter;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,21 +9,25 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+import ec.game.pokemon.DetailsActivity;
 import ec.game.pokemon.R;
 import ec.game.pokemon.model.Pokemon;
 
 public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.PokemonViewHolder> {
 
     List<Pokemon> lstPokemon;
+    Context context;
 
-    public PokemonAdapter(List<Pokemon> lstPokemon) {
+    public PokemonAdapter(List<Pokemon> lstPokemon, Context ctx) {
         this.lstPokemon = lstPokemon;
+        this.context = ctx;
     }
 
     @NonNull
@@ -55,6 +61,14 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.PokemonV
                     .load(objPokemon.getSprites().getFront_default())
                     .into(holder.imgPokemon);
         }
+        holder.cvItemPokemon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intento = new Intent(context, DetailsActivity.class);
+                intento.putExtra("pokemon", objPokemon);
+                context.startActivity(intento);
+            }
+        });
     }
 
     @Override
@@ -67,6 +81,7 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.PokemonV
         private TextView tvNamePokemon;
         private TextView tvIdPokemon;
         private TextView tvTypePokemon;
+        private CardView cvItemPokemon;
 
         public PokemonViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -74,6 +89,7 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.PokemonV
             this.tvNamePokemon = itemView.findViewById(R.id.tv_name_pokemon);
             this.tvIdPokemon = itemView.findViewById(R.id.tv_id_pokemon);
             this.tvTypePokemon = itemView.findViewById(R.id.tv_type_pokemon);
+            this.cvItemPokemon = itemView.findViewById(R.id.cv_item_pokemon);
         }
     }
 }

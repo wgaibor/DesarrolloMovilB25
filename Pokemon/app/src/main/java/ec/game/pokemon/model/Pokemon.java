@@ -1,14 +1,18 @@
 package ec.game.pokemon.model;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Pokemon {
+public class Pokemon implements Serializable {
     private int id;
     private String name;
     private int height;
     private int weight;
     private List<PokemonType> types;
     private PokemonSprites sprites;
+    private List<PokemonAbilities> abilities;
+
+    private List<PokemonStat> stats;
 
     public int getId() {
         return id;
@@ -56,5 +60,21 @@ public class Pokemon {
 
     public void setSprites(PokemonSprites sprites) {
         this.sprites = sprites;
+    }
+
+    public List<PokemonAbilities> getAbilities() {
+        return abilities;
+    }
+
+    public void setAbilities(List<PokemonAbilities> abilities) {
+        this.abilities = abilities;
+    }
+
+    public List<PokemonStat> getStats() {
+        return stats;
+    }
+
+    public void setStats(List<PokemonStat> stats) {
+        this.stats = stats;
     }
 }

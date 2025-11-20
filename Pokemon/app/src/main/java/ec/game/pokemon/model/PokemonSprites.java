@@ -1,6 +1,8 @@
 package ec.game.pokemon.model;
 
-public class PokemonSprites {
+import java.io.Serializable;
+
+public class PokemonSprites implements Serializable {
     private String front_default;
 
     public String getFront_default() {

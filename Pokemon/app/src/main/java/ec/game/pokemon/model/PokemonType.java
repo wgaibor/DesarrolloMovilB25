@@ -1,6 +1,8 @@
 package ec.game.pokemon.model;
 
-public class PokemonType {
+import java.io.Serializable;
+
+public class PokemonType implements Serializable {
     private int slot;
     private Type type;
 

@@ -2,9 +2,8 @@ package ec.game.pokemon.model;
 
 import java.io.Serializable;
 
-public class Type implements Serializable {
+public class AbilityItems implements Serializable {
     private String name;
-    private String url;
 
     public String getName() {
         return name;
@@ -12,13 +11,5 @@ public class Type implements Serializable {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
     }
 }

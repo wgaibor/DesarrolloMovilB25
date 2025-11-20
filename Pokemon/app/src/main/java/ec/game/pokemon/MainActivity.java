@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showPokemon(List<Pokemon> lstPokemon) {
-        PokemonAdapter pokemonAdapter = new PokemonAdapter(lstPokemon);
+        PokemonAdapter pokemonAdapter = new PokemonAdapter(lstPokemon, this);
         rvPokemon.setHasFixedSize(true);
         rvPokemon.setLayoutManager(new LinearLayoutManager(this));
         rvPokemon.setAdapter(pokemonAdapter);
