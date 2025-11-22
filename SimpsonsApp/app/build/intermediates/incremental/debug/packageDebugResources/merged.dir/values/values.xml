@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_color">#FF6B35</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="primary_color">#FFD700</color>
+    <color name="primary_dark">#FFA500</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_tertiary">#9E9E9E</color>
+    <string name="age">Edad</string>
+    <string name="app_name">The Simpsons App</string>
+    <string name="birthdate">Fecha de nacimiento</string>
+    <string name="character_details">Detalles del Personaje</string>
+    <string name="characters">Personajes</string>
+    <string name="connection_error">Error de conexión</string>
+    <string name="error_loading">Error al cargar personajes</string>
+    <string name="famous_phrases">Frases famosas</string>
+    <string name="gender">Género</string>
+    <string name="loading">Cargando...</string>
+    <string name="occupation">Ocupación</string>
+    <string name="status">Estado</string>
+    <string name="unknown">Desconocido</string>
+    <style name="Theme.SimpsonsApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+    </style>
+</resources>

@@ -43,10 +43,6 @@
         </activity>
 
         <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.pokemonapp.com.squareup.picasso"
-            android:exported="false" />
-        <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.pokemonapp.androidx-startup"
             android:exported="false" >
@@ -60,6 +56,10 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.pokemonapp.com.squareup.picasso"
+            android:exported="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

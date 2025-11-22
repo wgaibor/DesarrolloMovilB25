@@ -9,11 +9,11 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:5:5-67
-11-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:5:22-64
+11-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:6:5-79
-12-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:6:22-76
+12-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:6:22-76
 13
 14    <permission
 14-->[androidx.core:core:1.9.0] /home/wgaibor/.gradle/caches/transforms-3/cf89ab1ea7cc19352d4f47103c74320d/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
@@ -27,85 +27,85 @@
 18-->[androidx.core:core:1.9.0] /home/wgaibor/.gradle/caches/transforms-3/cf89ab1ea7cc19352d4f47103c74320d/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:8:5-29:19
+20-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:8:5-29:19
 21        android:allowBackup="true"
-21-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:9:9-35
+21-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:9:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.9.0] /home/wgaibor/.gradle/caches/transforms-3/cf89ab1ea7cc19352d4f47103c74320d/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:10:9-65
+23-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:10:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:11:9-54
+26-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:11:9-54
 27        android:icon="@mipmap/ic_launcher"
-27-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:12:9-43
+27-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:12:9-43
 28        android:label="@string/app_name"
-28-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:13:9-41
+28-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:13:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:14:9-54
+29-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:14:9-54
 30        android:supportsRtl="true"
-30-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:15:9-35
+30-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:15:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.PokemonApp"
-32-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:16:9-48
+32-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:16:9-48
 33        android:usesCleartextTraffic="true" >
-33-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:17:9-44
+33-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:17:9-44
 34        <activity
-34-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:20:9-28:20
+34-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:20:9-28:20
 35            android:name="com.example.pokemonapp.MainActivity"
-35-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:21:13-41
+35-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:21:13-41
 36            android:exported="true"
-36-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:22:13-36
+36-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:22:13-36
 37            android:theme="@style/Theme.PokemonApp" >
-37-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:23:13-52
+37-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:23:13-52
 38            <intent-filter>
-38-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:24:13-27:29
+38-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:24:13-27:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:25:17-69
-39-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:25:25-66
+39-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:25:17-69
+39-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:25:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:26:17-77
-41-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/PokemonApp/app/src/main/AndroidManifest.xml:26:27-74
+41-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:26:17-77
+41-->/home/wgaibor/Documentos/joao/TecLemas/DesarrolloMovil/B25/PokemonApp/app/src/main/AndroidManifest.xml:26:27-74
 42            </intent-filter>
 43        </activity>
 44
 45        <provider
-45-->[com.squareup.picasso:picasso:2.8] /home/wgaibor/.gradle/caches/transforms-3/1473d244b07757503e535a004b9e04f3/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
-46            android:name="com.squareup.picasso.PicassoProvider"
-46-->[com.squareup.picasso:picasso:2.8] /home/wgaibor/.gradle/caches/transforms-3/1473d244b07757503e535a004b9e04f3/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
-47            android:authorities="com.example.pokemonapp.com.squareup.picasso"
-47-->[com.squareup.picasso:picasso:2.8] /home/wgaibor/.gradle/caches/transforms-3/1473d244b07757503e535a004b9e04f3/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
-48            android:exported="false" />
-48-->[com.squareup.picasso:picasso:2.8] /home/wgaibor/.gradle/caches/transforms-3/1473d244b07757503e535a004b9e04f3/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
-49        <provider
-49-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-50            android:name="androidx.startup.InitializationProvider"
-50-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-51            android:authorities="com.example.pokemonapp.androidx-startup"
-51-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-52            android:exported="false" >
-52-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-53            <meta-data
-53-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-54-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-55                android:value="androidx.startup" />
-55-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-56            <meta-data
-56-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wgaibor/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-57-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wgaibor/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-58                android:value="androidx.startup" />
-58-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wgaibor/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-59            <meta-data
-59-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wgaibor/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-60                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-60-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wgaibor/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-61                android:value="androidx.startup" />
-61-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wgaibor/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-62        </provider>
+45-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+47            android:authorities="com.example.pokemonapp.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.2.0] /home/wgaibor/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wgaibor/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wgaibor/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/wgaibor/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wgaibor/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+56-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wgaibor/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+57                android:value="androidx.startup" />
+57-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wgaibor/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+58        </provider>
+59        <provider
+59-->[com.squareup.picasso:picasso:2.8] /home/wgaibor/.gradle/caches/transforms-3/1473d244b07757503e535a004b9e04f3/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
+60            android:name="com.squareup.picasso.PicassoProvider"
+60-->[com.squareup.picasso:picasso:2.8] /home/wgaibor/.gradle/caches/transforms-3/1473d244b07757503e535a004b9e04f3/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
+61            android:authorities="com.example.pokemonapp.com.squareup.picasso"
+61-->[com.squareup.picasso:picasso:2.8] /home/wgaibor/.gradle/caches/transforms-3/1473d244b07757503e535a004b9e04f3/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
+62            android:exported="false" />
+62-->[com.squareup.picasso:picasso:2.8] /home/wgaibor/.gradle/caches/transforms-3/1473d244b07757503e535a004b9e04f3/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
 63
 64        <receiver
 64-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/wgaibor/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20

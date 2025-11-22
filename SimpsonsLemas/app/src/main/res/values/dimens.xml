@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_tarjeta">10dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="dimen_texto_20sp">20sp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+</resources>

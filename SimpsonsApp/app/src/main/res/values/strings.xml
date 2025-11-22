@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Simpsons App</string>
+    <string name="characters">Personajes</string>
+    <string name="character_details">Detalles del Personaje</string>
+    <string name="loading">Cargando...</string>
+    <string name="error_loading">Error al cargar personajes</string>
+    <string name="connection_error">Error de conexión</string>
+    <string name="age">Edad</string>
+    <string name="gender">Género</string>
+    <string name="occupation">Ocupación</string>
+    <string name="birthdate">Fecha de nacimiento</string>
+    <string name="status">Estado</string>
+    <string name="famous_phrases">Frases famosas</string>
+    <string name="unknown">Desconocido</string>
+</resources>
+
