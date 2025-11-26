@@ -49,7 +49,7 @@ public class SimpsonAdapter extends RecyclerView.Adapter<SimpsonAdapter.SimpsonV
         String primeraFrase = (frases != null && frases.length > 0)
                 ? frases[0]
                 : "Sin frase";
-        holder.tvFrasePersonaje.setText(primeraFrase);
+        holder.tvFrasePersonaje.setText(primeraFrase.toString());
 
     }
 

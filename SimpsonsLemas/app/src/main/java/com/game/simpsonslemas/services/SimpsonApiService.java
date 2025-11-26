@@ -7,6 +7,7 @@ import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
+import retrofit2.http.Query;
 
 public class SimpsonApiService {
     private static final String BASE_URL = "https://thesimpsonsapi.com/api/";
@@ -35,5 +36,8 @@ public class SimpsonApiService {
     public interface SimpsonApi {
         @GET("characters")
         Call<SimpsonResponse> getPersonajeSimpsons();
+
+        @GET("characters")
+        Call<SimpsonResponse> getPersonajeSimpsonsByPage(@Query("page") int page);
     }
 }
