@@ -7,6 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.game.simpsonslemas.R;
@@ -22,6 +23,12 @@ public class SimpsonAdapter extends RecyclerView.Adapter<SimpsonAdapter.SimpsonV
 
     public SimpsonAdapter(List<Personajes> lstPersonajes) {
         this.lstPersonajes = lstPersonajes;
+    }
+
+    public void agregarPersonajes(List<Personajes> lstNuevosPersonajes) {
+        int posicionInicial = lstPersonajes.size();
+        lstPersonajes.addAll(lstNuevosPersonajes);
+        notifyItemRangeInserted(posicionInicial, lstNuevosPersonajes.size());
     }
 
     @NonNull
@@ -42,8 +49,27 @@ public class SimpsonAdapter extends RecyclerView.Adapter<SimpsonAdapter.SimpsonV
                 .into(holder.imgPersonaje);
         holder.tvNombrePersonaje.setText(objPersonaje.getName());
         holder.tvTrabajoPersonaje.setText(objPersonaje.getOccupation());
-        String edad = String.valueOf(objPersonaje.getAge()) != null ? String.valueOf(objPersonaje.getAge()) : "NO TIENE EDAD";
-        holder.tvEdadPersonaje.setText( edad);
+        if (objPersonaje.getAge() == 0) {
+            holder.tvEdadPersonaje.setVisibility(View.GONE);
+        } else {
+            holder.tvEdadPersonaje.setVisibility(View.VISIBLE);
+            holder.tvEdadPersonaje.setText(objPersonaje.getAge()+"");
+        }
+        if(objPersonaje.getStatus().equalsIgnoreCase("Deceased")) {
+            holder.tvVivoPersonaje.setBackground(
+                    ContextCompat.getDrawable(holder.itemView.getContext(), R.drawable.rectangle_deceased_textview)
+            );
+            holder.tvVivoPersonaje.setTextColor(
+                    ContextCompat.getColor(holder.itemView.getContext(), R.color.red)
+            );
+        } else {
+            holder.tvVivoPersonaje.setBackground(
+                    ContextCompat.getDrawable(holder.itemView.getContext(), R.drawable.rectangle_alive_textview)
+            );
+            holder.tvVivoPersonaje.setTextColor(
+                    ContextCompat.getColor(holder.itemView.getContext(), R.color.green)
+            );
+        }
         holder.tvVivoPersonaje.setText(objPersonaje.getStatus());
         String[] frases = objPersonaje.getPhrases();
         String primeraFrase = (frases != null && frases.length > 0)
