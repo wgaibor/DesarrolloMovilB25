@@ -1,6 +1,8 @@
 package com.game.simpsonslemas.models;
 
-public class Personajes {
+import java.io.Serializable;
+
+public class Personajes implements Serializable {
     private int id;
     private int age;
     private String birthdate;

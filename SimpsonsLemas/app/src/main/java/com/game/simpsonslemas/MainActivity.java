@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void llenarRecyclerView(List<Personajes> results) {
-        simpsonAdapter = new SimpsonAdapter(results);
+        simpsonAdapter = new SimpsonAdapter(this, results);
         rvListPersonaje.setHasFixedSize(true);
         rvListPersonaje.setLayoutManager(gridLayoutManager);
         rvListPersonaje.setAdapter(simpsonAdapter);

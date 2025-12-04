@@ -1,28 +1,36 @@
 package com.game.simpsonslemas.adapter;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.game.simpsonslemas.DetailsActivity;
+import com.game.simpsonslemas.MainActivity;
 import com.game.simpsonslemas.R;
 import com.game.simpsonslemas.models.Personajes;
 import com.game.simpsonslemas.services.SimpsonApiService;
 import com.squareup.picasso.Picasso;
 
+import java.io.Serializable;
 import java.util.List;
 
 public class SimpsonAdapter extends RecyclerView.Adapter<SimpsonAdapter.SimpsonViewHolder> {
 
     private List<Personajes> lstPersonajes;
+    Context ctx;
 
-    public SimpsonAdapter(List<Personajes> lstPersonajes) {
+    public SimpsonAdapter(Context context, List<Personajes> lstPersonajes) {
         this.lstPersonajes = lstPersonajes;
+        this.ctx = context;
     }
 
     public void agregarPersonajes(List<Personajes> lstNuevosPersonajes) {
@@ -76,7 +84,14 @@ public class SimpsonAdapter extends RecyclerView.Adapter<SimpsonAdapter.SimpsonV
                 ? frases[0]
                 : "Sin frase";
         holder.tvFrasePersonaje.setText(primeraFrase.toString());
-
+        holder.lytDetalle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intento = new Intent(ctx, DetailsActivity.class);
+                intento.putExtra("personaje", objPersonaje);
+                ctx.startActivity(intento);
+            }
+        });
     }
 
     @Override
@@ -91,15 +106,17 @@ public class SimpsonAdapter extends RecyclerView.Adapter<SimpsonAdapter.SimpsonV
         TextView tvEdadPersonaje;
         TextView tvVivoPersonaje;
         TextView tvFrasePersonaje;
+        LinearLayout lytDetalle;
 
         public SimpsonViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgPersonaje = itemView.findViewById(R.id.img_personaje);
-            tvNombrePersonaje = itemView.findViewById(R.id.tv_nombre_personaje);
+            imgPersonaje       = itemView.findViewById(R.id.img_personaje);
+            tvNombrePersonaje  = itemView.findViewById(R.id.tv_nombre_personaje);
             tvTrabajoPersonaje = itemView.findViewById(R.id.tv_trabajo_personaje);
-            tvEdadPersonaje = itemView.findViewById(R.id.tv_edad_personaje);
-            tvVivoPersonaje = itemView.findViewById(R.id.tv_vivo_personaje);
-            tvFrasePersonaje = itemView.findViewById(R.id.tv_frase_personaje);
+            tvEdadPersonaje    = itemView.findViewById(R.id.tv_edad_personaje);
+            tvVivoPersonaje    = itemView.findViewById(R.id.tv_vivo_personaje);
+            tvFrasePersonaje   = itemView.findViewById(R.id.tv_frase_personaje);
+            lytDetalle         = itemView.findViewById(R.id.lyt_detalle);
         }
     }
 }
