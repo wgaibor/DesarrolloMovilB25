@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cafeteria</string>
+    <string name="email">email</string>
+    <string name="contrasena">contraseña</string>
+    <string name="guardar">Guardar</string>
+    <string name="ingresar">Ingresar</string>
+</resources>
