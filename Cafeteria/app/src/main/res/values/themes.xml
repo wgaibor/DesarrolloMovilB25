@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.Cafeteria" parent="Base.Theme.Cafeteria" />
+
+    <style name="Theme.Cafeteria.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Cafeteria.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

@@ -15,6 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.lemas.cafeteria.activity.CreateLoginActivity;
+import com.lemas.cafeteria.activity.MenuActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         tvRegistrarse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intento = new Intent(MainActivity.this, CreateLoginActivity.class);
+                Intent intento = new Intent(MainActivity.this, MenuActivity.class);
                 startActivity(intento);
                 finish();
             }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_desayunos"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/menu_desayunos" />
+
+        <item
+            android:id="@+id/nav_bebidas"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/menu_bebidas" />
+
+        <item
+            android:id="@+id/nav_acerca_de"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/menu_acerca_de" />
+    </group>
+
+</menu>
+
