@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".activity.RegisterActivity">
+    tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         android:hint="@string/correo_electronico">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_correo_register"
+            android:id="@+id/edt_correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
@@ -31,19 +31,35 @@
         android:hint="@string/contrasena">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_contrasena_register"
+            android:id="@+id/edt_contrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_ingresar_register"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/registrarse"
-        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-        android:layout_margin="@dimen/dimen_10dp"/>
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registrarse"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_margin="@dimen/dimen_10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_ingresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresar"
+            android:layout_margin="@dimen/dimen_10dp"/>
+
+    </LinearLayout>
+
 
 </LinearLayout>

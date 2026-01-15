@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LemasCafeteria" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.LemasCafeteria" parent="Base.Theme.LemasCafeteria" />
+
+    <style name="Theme.LemasCafeteria.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.LemasCafeteria.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

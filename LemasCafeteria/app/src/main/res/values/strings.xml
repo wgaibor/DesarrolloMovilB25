@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LemasCafeteria</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="desayuno">Desayunos</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agregar_articulo">"Agregar artículo "</string>
+    <string name="nombre_articulo">Nombre del Artículo</string>
+    <string name="hint_nombre">Ingrese el nombre del artículo</string>
+    <string name="precio_unitario">Precio Unitario</string>
+    <string name="hint_precio">Ingrese el precio</string>
+    <string name="imagen_articulo">Imagen del Artículo</string>
+    <string name="seleccionar_imagen">Seleccionar Imagen</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar">Guardar</string>
+    <string name="error_procesar_imagen">Error al procesar imagen</string>
+    <string name="error_campos_vacios">Por favor complete todos los campos</string>
+    <string name="error_precio_invalido">El precio debe ser mayor a 0</string>
+    <string name="guardando_articulo">Guardando artículo…</string>
+    <string name="articulo_guardado_exitosamente">Artículo guardado exitosamente</string>
+    <string name="error_guardar_articulo">Error al guardar artículo</string>
+</resources>

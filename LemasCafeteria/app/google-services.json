@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "733473905788",
+    "project_id": "cafeterialemas-3700b",
+    "storage_bucket": "cafeterialemas-3700b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733473905788:android:35ea9bc32ff55a4c79bdf9",
+        "android_client_info": {
+          "package_name": "com.lemas.lemascafeteria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Tln0DMYKUXcl_FIgnyxmGxccYh0EjDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
