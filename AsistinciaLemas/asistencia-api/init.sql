@@ -144,17 +144,17 @@ INSERT INTO parametros (clave, valor, descripcion, usr_creacion) VALUES
 
 -- Curso de demo
 INSERT INTO cursos (nombre, nivel, paralelo, anio_lectivo, usr_creacion) VALUES
-('3ro Básica', 'Primaria', 'A', '2025-2026', 'SYSTEM');
+('3ro Basica', 'Primaria', 'A', '2025-2026', 'SYSTEM');
 
 -- Usuarios de demo
 -- Contraseñas: docente123, estudiante123, representante123
--- BCrypt hashes generados con cost factor 10
+-- BCrypt hashes generados con cost factor 10 (compatible con $2a$ y $2b$)
 INSERT INTO usuarios (cedula, nombre, email, password, rol, usr_creacion) VALUES
-('1234567890', 'Prof. María García', 'maria.garcia@lemas.edu', '$2a$10$N9qo8uLOickgx2ZMRZoMye.IjqQBrkHXGw8pPJM1RLMkdXNiL7oKO', 'DOCENTE', 'SYSTEM'),
-('0987654321', 'Carlos Pérez Mora', 'carlos.perez@lemas.edu', '$2a$10$EblZqNptyYvcLm/VwDCVAuBjzZOI7khzdyGPBr08PpIi0na624b8.', 'ESTUDIANTE', 'SYSTEM'),
-('0987654322', 'Ana López Torres', 'ana.lopez@lemas.edu', '$2a$10$EblZqNptyYvcLm/VwDCVAuBjzZOI7khzdyGPBr08PpIi0na624b8.', 'ESTUDIANTE', 'SYSTEM'),
-('1122334455', 'Pedro Pérez', 'pedro.perez@gmail.com', '$2a$10$kGnP0.gPz7K0Ub1kYL3YqOQhSMJQe9C0W8FsVPf1CmBjNq3DnJUyu', 'REPRESENTANTE', 'SYSTEM'),
-('1122334456', 'Laura Torres', 'laura.torres@gmail.com', '$2a$10$kGnP0.gPz7K0Ub1kYL3YqOQhSMJQe9C0W8FsVPf1CmBjNq3DnJUyu', 'REPRESENTANTE', 'SYSTEM');
+('1234567890', 'Prof. Maria Garcia', 'maria.garcia@lemas.edu', '$2b$10$Fc9qGdde31whb9FOi4J/Bu2NSA7qgdNGugajj9df/c.FQXns4cPy.', 'DOCENTE', 'SYSTEM'),
+('0987654321', 'Carlos Perez Mora', 'carlos.perez@lemas.edu', '$2b$10$Dagb5gAxYegsh5/W36BsDuKAxGwf8iRAv6xR6xYkVmmVyZ7B4tmja', 'ESTUDIANTE', 'SYSTEM'),
+('0987654322', 'Ana Lopez Torres', 'ana.lopez@lemas.edu', '$2b$10$Dagb5gAxYegsh5/W36BsDuKAxGwf8iRAv6xR6xYkVmmVyZ7B4tmja', 'ESTUDIANTE', 'SYSTEM'),
+('1122334455', 'Pedro Perez', 'pedro.perez@gmail.com', '$2b$10$3pGUJC2FyhwO1QPdMzfrbe2lnPotpWVmFfpEVDf.KXVX9Em7VZ0Xi', 'REPRESENTANTE', 'SYSTEM'),
+('1122334456', 'Laura Torres', 'laura.torres@gmail.com', '$2b$10$3pGUJC2FyhwO1QPdMzfrbe2lnPotpWVmFfpEVDf.KXVX9Em7VZ0Xi', 'REPRESENTANTE', 'SYSTEM');
 
 -- Docente
 INSERT INTO docentes (usuario_id, usr_creacion) VALUES
