@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="59" height="50" viewBox="0 0 59 50">
+  <circle cx="29.5" cy="25.0" r="20.0" fill="#4CAF50"/>
+  <!-- horizontal bar -->
+  <rect x="19.5" y="22.0"
+        width="20.0" height="6.0"
+        rx="3.0" fill="#FFFFFF"/>
+  <!-- vertical bar -->
+  <rect x="26.5" y="15.0"
+        width="6.0" height="20.0"
+        rx="3.0" fill="#FFFFFF"/>
+</svg>
