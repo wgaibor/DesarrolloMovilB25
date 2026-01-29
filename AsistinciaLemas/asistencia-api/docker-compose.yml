@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: asistencia-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: asistencia_db
+      MYSQL_USER: asistencia_user
+      MYSQL_PASSWORD: asistencia_pass
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - asistencia-net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    container_name: asistencia-api
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/asistencia_db?allowPublicKeyRetrieval=true&useSSL=false
+      SPRING_DATASOURCE_USERNAME: asistencia_user
+      SPRING_DATASOURCE_PASSWORD: asistencia_pass
+      JWT_SECRET: clave_secreta_jwt_produccion_cambiar
+      FIREBASE_ENABLED: "false"
+    ports:
+      - "8080:8080"
+    networks:
+      - asistencia-net
+
+volumes:
+  mysql_data:
+
+networks:
+  asistencia-net:
