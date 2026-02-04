@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Asistencia Lemas</string>
+
+    <!-- Login -->
+    <string name="hint_cedula">Cédula</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="error_empty_cedula">Ingrese su cédula</string>
+    <string name="error_empty_password">Ingrese su contraseña</string>
+    <string name="error_login_failed">Error al iniciar sesión</string>
+    <string name="error_network">Error de conexión</string>
+
+    <!-- QR (Estudiante) -->
+    <string name="title_mi_qr">Mi Código QR</string>
+    <string name="qr_instruction">Muestra este código al docente para registrar tu asistencia</string>
+
+    <!-- Escaner QR (Docente) -->
+    <string name="title_escaner">Escanear Asistencia</string>
+    <string name="escaner_instruction">Apunta la cámara al código QR del estudiante</string>
+    <string name="asistencia_registrada">Asistencia registrada</string>
+    <string name="error_escaneo">Error al registrar asistencia</string>
+
+    <!-- Historial (Representante) -->
+    <string name="title_historial">Historial de Asistencia</string>
+    <string name="estado_presente">Presente</string>
+    <string name="estado_atraso">Atraso</string>
+    <string name="estado_falta">Falta</string>
+    <string name="sin_registros">No hay registros de asistencia</string>
+
+    <!-- General -->
+    <string name="btn_logout">Cerrar Sesión</string>
+    <string name="welcome_message">Bienvenido, %1$s</string>
+</resources>
